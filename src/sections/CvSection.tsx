@@ -30,22 +30,22 @@ export const CvSection: React.FC<CvSectionProps> = ({ onOpenCvModal }) => {
               </h2>
 
               <p className="text-dark-muted text-sm sm:text-base leading-relaxed mb-6 max-w-xl">
-                Download or preview my verified Curriculum Vitae detailing academic credentials from AIUB, Cisco networking training, programming stacks, and project achievements.
+                Download or preview my latest Curriculum Vitae detailing academic credentials from AIUB (CGPA 3.65), software developer internship experience, Cisco networking certification, and published research.
               </p>
 
               {/* CV Points */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8 w-full max-w-lg">
                 <div className="flex items-center gap-2 text-xs text-slate-300">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                  <span>B.Sc. CSE (AIUB 2025)</span>
+                  <span>B.Sc. CSE (AIUB, CGPA 3.65)</span>
                 </div>
                 <div className="flex items-center gap-2 text-xs text-slate-300">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                  <span>Cisco Course Certified</span>
+                  <span>Junior Developer Internship</span>
                 </div>
                 <div className="flex items-center gap-2 text-xs text-slate-300">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                  <span>C++, JS, Python & React</span>
+                  <span>6G & ML Research Papers</span>
                 </div>
                 <div className="flex items-center gap-2 text-xs text-slate-300">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
@@ -85,7 +85,7 @@ export const CvSection: React.FC<CvSectionProps> = ({ onOpenCvModal }) => {
                   <div className="w-6 h-6 rounded bg-brand-accent/20 flex items-center justify-center text-brand-accent">
                     <FileText className="w-3.5 h-3.5" />
                   </div>
-                  <span className="text-[10px] text-white/50 font-mono">PDF PREVIEW</span>
+                  <span className="text-[10px] text-white/50 font-mono">2-PAGE PDF</span>
                 </div>
 
                 <div className="space-y-2 py-4">

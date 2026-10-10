@@ -16,14 +16,16 @@ export interface SkillCategory {
 
 export const skillCategories: SkillCategory[] = [
   {
-    title: "Programming & Web",
+    title: "Programming & Full-Stack",
     description: "Core languages and web technologies for client-side and full-stack development.",
     iconName: "Code2",
     skills: [
+      { name: "React.js" },
+      { name: "Node.js" },
+      { name: "MongoDB" },
       { name: "JavaScript" },
       { name: "C++" },
       { name: "Python" },
-      { name: "React" },
       { name: "Next.js" },
       { name: "HTML5 & CSS3" },
       { name: "WordPress & Elementor" },
@@ -48,24 +50,25 @@ export const skillCategories: SkillCategory[] = [
     description: "Data storage, version management, and engineering environments.",
     iconName: "Database",
     skills: [
+      { name: "MongoDB" },
       { name: "MySQL" },
       { name: "SQL" },
       { name: "Git & GitHub" },
       { name: "Linux / CLI" },
       { name: "VS Code" },
-      { name: "Eclipse IDE" },
+      { name: "MS Office & Presentation" },
     ],
   },
   {
     title: "UI/UX & Creative",
-    description: "Interface architecture, research, visual wireframes, and game prototyping.",
+    description: "Interface architecture, research, visual wireframes, and product prototyping.",
     iconName: "Palette",
     skills: [
       { name: "Figma" },
       { name: "User Interface (UI)" },
       { name: "User Experience (UX)" },
       { name: "Wireframing & Prototyping" },
-      { name: "Unity (Basics)" },
+      { name: "Payment Gateways & UX" },
     ],
   },
 ];
