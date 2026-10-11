@@ -71,10 +71,32 @@ export const projectsData: ProjectItem[] = [
     title: "Air Quality Monitoring Portal",
     description:
       "University Web Technologies final project featuring sensor data visualization, client-side dashboard, and MySQL backend integration.",
-    image: "./assets/projects/interior.png", // fallback placeholder thumbnail
+    image: "./assets/projects/AQI.png", // fallback placeholder thumbnail
     tags: ["HTML", "CSS", "JavaScript", "MySQL", "PHP"],
     githubUrl: "https://github.com/Rakibul-Dark-Devil007/Web-Tech",
     category: "Academic",
+    featured: false,
+  },
+  {
+    id: "ghorbondhu",
+    title: "Ghorbondhu - Trust Help Right At Home ",
+    description:
+      "GhorBondhu is a smart home-service marketplace platform where customers can easily find, request, schedule, and pay for trusted home-service providers.",
+    image: "./assets/projects/GhorBondhu.png", // fallback placeholder thumbnail
+    tags: ["HTML", "CSS", "JavaScript", "Firebase", "Typescript","React.Js"],
+    githubUrl: "https://github.com/Rakibul-Dark-Devil007/GhorBondhu",
+    category: "Web",
+    featured: false,
+  },
+  {
+    id: "premiumtoursandconsultant",
+    title: "Premium Tours and Consultant(Demo)",
+    description:
+      "Discover breathtaking destinations, experience cultural wonders, and create unforgettable memories. Your journey starts here with Bangladesh's most trusted travel consultant.",
+    image: "./assets/projects/PTC.png", // fallback placeholder thumbnail
+    tags: ["HTML", "CSS", "JavaScript", "Firebase", "Typescript","React.Js"],
+    liveDemoUrl: "https://premiumtoursandconsultant.netlify.app",
+    category: "Web",
     featured: false,
   },
 ];
