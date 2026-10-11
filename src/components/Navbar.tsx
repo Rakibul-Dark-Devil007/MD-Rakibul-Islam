@@ -19,6 +19,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCvModal }) => {
     { name: 'Projects', href: '#projects' },
     { name: 'Services', href: '#services' },
     { name: 'Education', href: '#education' },
+    { name: 'CV', href: '#cv' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -28,7 +29,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCvModal }) => {
       setScrolled(window.scrollY > 40);
 
       // Simple active section calculation
-      const sections = ['home', 'about', 'founder', 'skills', 'projects', 'services', 'education', 'contact'];
+      const sections = ['home', 'about', 'founder', 'skills', 'projects', 'services', 'education', 'cv', 'contact'];
       const scrollPosition = window.scrollY + 140;
 
       for (let i = sections.length - 1; i >= 0; i--) {
